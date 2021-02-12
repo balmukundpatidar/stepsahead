@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraMedium-Regular.eot');
+    src: url('EffraMedium-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EffraMedium-Regular.woff2') format('woff2'),
+        url('EffraMedium-Regular.woff') format('woff'),
+        url('EffraMedium-Regular.ttf') format('truetype'),
+        url('EffraMedium-Regular.svg#EffraMedium-Regular') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraHeavy-Regular.eot');
+    src: url('EffraHeavy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EffraHeavy-Regular.woff2') format('woff2'),
+        url('EffraHeavy-Regular.woff') format('woff'),
+        url('EffraHeavy-Regular.ttf') format('truetype'),
+        url('EffraHeavy-Regular.svg#EffraHeavy-Regular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraLight-Regular.eot');
+    src: url('EffraLight-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EffraLight-Regular.woff2') format('woff2'),
+        url('EffraLight-Regular.woff') format('woff'),
+        url('EffraLight-Regular.ttf') format('truetype'),
+        url('EffraLight-Regular.svg#EffraLight-Regular') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Regular.eot');
+    src: url('Effra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Regular.woff2') format('woff2'),
+        url('Effra-Regular.woff') format('woff'),
+        url('Effra-Regular.ttf') format('truetype'),
+        url('Effra-Regular.svg#Effra-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Bold.eot');
+    src: url('Effra-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Bold.woff2') format('woff2'),
+        url('Effra-Bold.woff') format('woff'),
+        url('Effra-Bold.ttf') format('truetype'),
+        url('Effra-Bold.svg#Effra-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

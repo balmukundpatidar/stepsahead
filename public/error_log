@@ -1,0 +1,56 @@
+[14-Aug-2018 11:16:04 Europe/London] PHP Fatal error:  Cannot use App\User as User because the name is already in use in /home1/creekrecruit/public_html/app/Http/Controllers/Admin/User/UserController.php on line 27
+[21-Jun-2020 20:42:37 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 123736064 bytes) in /home/stepsaheadsuppor/subdomains/dev/app/Http/Controllers/Job/Contact/ContactController.php on line 63
+[21-Jul-2020 05:52:42 Europe/London] PHP Fatal error:  Cannot redeclare App\Http\Controllers\Admin\CommonController::updateOrderForCareSupport() in /home/stepsaheadsuppor/subdomains/dev/app/Http/Controllers/Admin/CommonController.php on line 743
+[29-Aug-2020 13:43:42 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 125833216 bytes) in /home/stepsaheadsuppor/subdomains/dev/app/Http/Controllers/Job/Home/HomeController.php on line 21
+[29-Aug-2020 13:44:05 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 125833216 bytes) in /home/stepsaheadsuppor/subdomains/dev/app/Http/Controllers/Job/Home/HomeController.php on line 21
+[02-Sep-2020 19:43:46 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 123736064 bytes) in /home/stepsaheadsuppor/subdomains/new/app/Http/Controllers/Admin/Menus/MenuController.php on line 129
+[15-Sep-2020 19:24:57 Europe/London] PHP Warning:  Uncaught ErrorException: require_once(./TwitterAPIExchange.php): failed to open stream: No such file or directory in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php:165
+Stack trace:
+#0 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/stepsahea...', 165, Array)
+#1 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): require_once()
+#2 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/stepsahea...')
+#3 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/stepsahea...', Array)
+#4 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illumin in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:24:57 Europe/London] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required './TwitterAPIExchange.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:25:57 Europe/London] PHP Warning:  Uncaught ErrorException: require_once(./TwitterAPIExchange.php): failed to open stream: No such file or directory in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php:165
+Stack trace:
+#0 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/stepsahea...', 165, Array)
+#1 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): require_once()
+#2 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/stepsahea...')
+#3 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/stepsahea...', Array)
+#4 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illumin in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:25:57 Europe/London] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required './TwitterAPIExchange.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:26:03 Europe/London] PHP Warning:  Uncaught ErrorException: require_once(./TwitterAPIExchange.php): failed to open stream: No such file or directory in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php:165
+Stack trace:
+#0 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/stepsahea...', 165, Array)
+#1 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): require_once()
+#2 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/stepsahea...')
+#3 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/stepsahea...', Array)
+#4 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illumin in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:26:03 Europe/London] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required './TwitterAPIExchange.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:26:45 Europe/London] PHP Warning:  Uncaught ErrorException: require_once(./TwitterAPIExchange.php): failed to open stream: No such file or directory in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php:165
+Stack trace:
+#0 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/stepsahea...', 165, Array)
+#1 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): require_once()
+#2 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/stepsahea...')
+#3 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/stepsahea...', Array)
+#4 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illumin in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:26:45 Europe/London] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required './TwitterAPIExchange.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:27:07 Europe/London] PHP Warning:  Uncaught ErrorException: require_once(./TwitterAPIExchange.php): failed to open stream: No such file or directory in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php:165
+Stack trace:
+#0 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/stepsahea...', 165, Array)
+#1 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(165): require_once()
+#2 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/stepsahea...')
+#3 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/stepsahea...', Array)
+#4 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illumin in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:27:07 Europe/London] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required './TwitterAPIExchange.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 165
+[15-Sep-2020 19:34:53 Europe/London] PHP Warning:  Uncaught ErrorException: require_once(./TwitterAPIExchange.php): failed to open stream: No such file or directory in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php:166
+Stack trace:
+#0 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(166): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(./...', '/home/stepsahea...', 166, Array)
+#1 /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php(166): require_once()
+#2 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(43): include('/home/stepsahea...')
+#3 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(59): Illuminate\View\Engines\PhpEngine->evaluatePath('/home/stepsahea...', Array)
+#4 /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illumin in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 166
+[15-Sep-2020 19:34:53 Europe/London] PHP Fatal error:  Illuminate\View\Engines\PhpEngine::main(): Failed opening required './TwitterAPIExchange.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/stepsaheadsuppor/subdomains/new/storage/framework/views/6ddfe0ca718bcf6f9b118f3410700d890b4f3ca5.php on line 166
+[16-Sep-2020 10:05:47 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php on line 67
+[16-Sep-2020 10:05:50 Europe/London] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/stepsaheadsuppor/subdomains/new/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php on line 67

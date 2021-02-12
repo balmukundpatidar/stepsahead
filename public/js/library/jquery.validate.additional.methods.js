@@ -1,0 +1,1 @@
+jQuery.validator.addMethod("anydate",function(a,e){return a.match(/\d{2,4}[-\/]\d{1,2}[-\/]\d{1,4}/gm)},"Please enter a valid date"),jQuery.validator.addMethod("charonly",function(a,e){return a.match(/^[a-zA-Z]+$/)},"Please enter the alphabets");

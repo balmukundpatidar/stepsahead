@@ -1,0 +1,168 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('bootstrap.min.css');
+@import url('owl.carousel.min.css');
+@import url('owl.theme.default.css');
+@import url('animate.min.css');
+@import url('style.css');
+@import url('reponsive.css');
+
+body {
+    font-family: 'Poppins';
+    color: #0d0d0d;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: initial;
+}
+
+main {
+    overflow: hidden;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+}
+
+a {
+    color: #0d0d0d;
+}
+
+a:hover {
+    color: #41c796;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:active,
+a:hover,
+a,
+a:focus,
+button:focus,
+button,
+button:hover,
+input,
+input:hover,
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 0 0 -webkit-focus-ring-color;
+    outline: 0;
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+}
+
+p {
+    line-height: 25px;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+    margin: 0;
+}
+
+
+img,
+input+label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+:-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+::-moz-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+::-ms-input-placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+::-moz-selection {
+    background: #41c796;
+    color: #fff;
+}
+
+::selection {
+    background: #41c796;
+    color: #fff;
+}
+
+/* .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    z-index: 999999;
+}
+
+.loader:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 999999;
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    background-image: url('../img/loader.gif');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center center;
+    right: 0;
+    margin: 0 auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+} */
